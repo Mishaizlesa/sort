@@ -52,7 +52,7 @@ int main(){
     if (n>1500){
         printf("array is too big, no output(\n");
     }else{
-        printf("default array:");for(int i=0;i<n;++i) printf("%ld ",a1[i]);
-        printf("\nsorted array:");for(int i=0;i<n;++i) printf("%ld ",a[i]);
+        printf("default array: ");for(int i=0;i<n;++i) printf("%ld ",a1[i]);
+        printf("\nsorted array: ");for(int i=0;i<n;++i) printf("%ld ",a[i]);
     }
 }
