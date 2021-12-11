@@ -46,7 +46,7 @@ int main(){
         insert_sort(a, n, func[s]);
     }else if (ch==3){
         select_sort(a, n, func[s]);
-    }else if (ch==3){
+    }else if (ch==4){
         quick_sort(0, n-1, a, func[s], func[(s+1)%2]);
     }
     if (n>1500){
