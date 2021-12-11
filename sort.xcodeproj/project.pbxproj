@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF77950E2764DAD5006A922C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF77950D2764DAD5006A922C /* main.cpp */; };
+		BF7795172765200D006A922C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF7795152765200D006A922C /* main.cpp */; };
+		BF77951827653AE7006A922C /* sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF77950D2764DAD5006A922C /* sort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		BF77950A2764DAD5006A922C /* sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sort; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF77950D2764DAD5006A922C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BF77950D2764DAD5006A922C /* sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sort.cpp; sourceTree = "<group>"; };
+		BF77951427651ECC006A922C /* sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sort.h; sourceTree = "<group>"; };
+		BF7795152765200D006A922C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		BF77950C2764DAD5006A922C /* sort */ = {
 			isa = PBXGroup;
 			children = (
-				BF77950D2764DAD5006A922C /* main.cpp */,
+				BF77951427651ECC006A922C /* sort.h */,
+				BF77950D2764DAD5006A922C /* sort.cpp */,
+				BF7795152765200D006A922C /* main.cpp */,
 			);
 			path = sort;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF77950E2764DAD5006A922C /* main.cpp in Sources */,
+				BF7795172765200D006A922C /* main.cpp in Sources */,
+				BF77951827653AE7006A922C /* sort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
